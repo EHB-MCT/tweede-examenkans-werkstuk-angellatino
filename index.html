@@ -4,6 +4,7 @@
     <title>Eindopdracht</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/5827491fb4.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
@@ -16,26 +17,26 @@
     </div>
     </header>
     <main>
-      <div id="container">
+      <div id="container" class="clearfix">
 
-        <div class="filterdiv">
+        <aside class="filterdiv">
+
           <h2 class="titelfilter">Filters</h2>
-          <input type="text" placeholder="Search..">
-        </div>
-
-        <div class="newsdiv">
-
-          <div class="imagediv">
-            <img src="images/img1.png" alt="" style="width: 70%">
+          <input class="searchbalk" type="text" placeholder="Search..">
+          <div class="likesFilterDiv">
+            <h3>Filter op Likes</h3>
+            <input class="checkbox" type="checkbox" id="" name="FilterOpLikes" value="">
           </div>
-          <div>
 
-          </div>
+        </aside>
+
+        <div id="contentResult" class="newsdiv" class="clearfix">
+          <!--Hier komt de structuur van de teks via javascript-->  
         </div>
 
       </div>
     </main>
-    <script type="module" src="./js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
   <footer>
 
