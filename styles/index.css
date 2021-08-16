@@ -1,6 +1,6 @@
 body {
-  font-family: sans-serif;
-  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
 }
 
 * {
@@ -14,6 +14,55 @@ main {
 }
 #container {
   width: 100vw;
+  background-color: rgb(112, 83, 83);
   height:  100vh;
 }
 
+.logo {
+  background-color: white;
+  display: block;
+  max-width:100%;
+  max-height:50%;
+}
+
+.imglogo{
+  width: 20%;
+  margin: 0 0 0 37%;
+  padding: 2% 2.5% 2% 2.5%;
+}
+
+.Titel{
+  background-color: rgb(228, 6, 19);
+  padding: 2% 0 0% 0;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.filterdiv{
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  background-color: rgb(38, 18, 128);
+}
+
+.titelfilter{
+  background-color: #1bbcb6;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;
+}
+
+.newsdiv{
+  display: inline-block;
+  background-color: seagreen;
+  width: 74%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.imagediv{
+  display: inline-block;
+  max-width: 100%;
+}
